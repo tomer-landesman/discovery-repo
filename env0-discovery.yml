@@ -2,4 +2,4 @@ environments:
   env3:
     projectName: "My First Project|sub-project"
     templateName: "template1"
-    name: "new-env-7"
+    name: "new-env-7-template-not-assigned"
