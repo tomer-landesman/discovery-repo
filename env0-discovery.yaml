@@ -1,0 +1,5 @@
+environments:
+  env1:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "kakableben"
