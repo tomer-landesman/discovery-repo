@@ -1,6 +1,6 @@
 environments:
   tomer2:
-    projectName: "sub-project"
+    projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
     templateName: "template1"
     name: "tomer-env"
   # yariv2:
