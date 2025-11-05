@@ -1,9 +1,9 @@
 environments:
-  oldOrg:
-    projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
+  oldOrg2:
+    projectName: "My First Project|sub-project"
     templateName: "template1"
-    name: "allaone"
-  newOrg:
-    projectId: "e5c5cd15-ce91-42ba-b216-184b8fefd2df"
+    name: "af"
+  newOrg2:
+    projectName: "My First Project|sub-project"
     templateName: "template1"
     name: "uniq-env"
