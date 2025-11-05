@@ -1,5 +1,5 @@
 environments:
-  env1:
+  env2:
     projectName: "My First Project"
     templateName: "template1"
-    name: "rename23"
+    name: "new-env"
