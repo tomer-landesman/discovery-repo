@@ -3,7 +3,7 @@ environments:
     projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
     templateName: "template1"
     name: "tomer-env"
-  # yariv2:
-  #   projectName: "sub-project"
-  #   templateName: "template1"
-  #   name: "yariv-env"
+  yariv2:
+    projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
+    templateName: "template1"
+    name: "yariv-env"
