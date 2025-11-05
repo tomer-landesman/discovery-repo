@@ -2,8 +2,8 @@ environments:
   tomer2:
     projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
     templateName: "template1"
-    name: "tomer-env"
+    name: "tomer-env2"
   yariv2:
     projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
     templateName: "template1"
-    name: "yariv-env"
+    name: "yariv-env2"
