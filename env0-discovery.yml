@@ -7,3 +7,7 @@ environments:
     projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
     templateName: "template1"
     name: "yariv-env32"
+  withTemplateId:
+    projectId: "5fc0b3a1-5851-4fc4-bed7-09383203c71e"
+    templateId: "77dd2370-a636-40fd-a583-afd98a8b3a95"
+    name: "t-id"
