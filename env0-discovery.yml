@@ -6,4 +6,4 @@ environments:
   yariv:
     projectName: "yariv|sub-project"
     templateName: "template1"
-    name: "yariv-env"
+    name: "yariv-env2"
