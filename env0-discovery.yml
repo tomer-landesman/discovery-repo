@@ -1,5 +1,9 @@
 environments:
-  env3:
+  tomer:
     projectName: "My First Project|sub-project"
     templateName: "template1"
-    name: "new-env-7-template-not-assigned2"
+    name: "tomer-env"
+  yariv:
+    projectName: "yariv|sub-project"
+    templateName: "template1"
+    name: "yariv-env"
