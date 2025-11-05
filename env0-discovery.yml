@@ -2,4 +2,4 @@ environments:
   env1:
     projectName: "My First Project"
     templateName: "template1"
-    name: "2"
+    name: "bye"
