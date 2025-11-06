@@ -3,5 +3,5 @@ environments:
     projectName: "My First Project"
     templateName: "template1"
     name: "aasfassdsds"
-  variableFiles:
-    - path: "tomer.tfvars"
+    variableFiles:
+      - path: "tomer.tfvars"
