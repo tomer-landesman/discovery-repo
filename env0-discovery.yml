@@ -1,9 +1,7 @@
 environments:
   oldOrg2:
-    projectName: "My First Project|sub-project"
+    projectName: "My First Project"
     templateName: "template1"
     name: "af"
-  newOrg2:
-    projectName: "My First Project|sub-project"
-    templateName: "template1"
-    name: "uniq-env"
+  variableFiles:
+    - path: "tomer.tfvars"
