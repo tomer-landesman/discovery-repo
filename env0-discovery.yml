@@ -2,6 +2,6 @@ environments:
   oldOrg2:
     projectName: "My First Project"
     templateName: "template1"
-    name: "aasfss"
+    name: "aasfasdss"
   variableFiles:
     - path: "tomer.tfvars"
