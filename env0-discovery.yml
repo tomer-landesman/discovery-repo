@@ -2,6 +2,6 @@ environments:
   kaka:
     projectName: "My First Project"
     templateName: "template1"
-    name: "aasfassddssdss"
+    name: "aasfassssddssdss"
     variableFiles:
       - path: "tomer.tfvars"
