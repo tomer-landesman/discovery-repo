@@ -2,7 +2,8 @@ environments:
   oldOrg2:
     projectName: "My First Project"
     templateName: "template1"
-    name: "aasfassdssdss"
+    name: "as"
     isRemoteBackend: true
+    deployOnPush: true
     variableFiles:
       - path: "tomer.tfvars"
