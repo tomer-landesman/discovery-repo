@@ -8,6 +8,6 @@ environments:
   prEnv:
     projectName: "My First Project"
     templateName: "template1"
-    name: "pr-env"
+    name: "pr-env-2"
     variableFiles:
       - path: "tomer.tfvars"
