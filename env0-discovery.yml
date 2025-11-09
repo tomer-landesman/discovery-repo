@@ -3,5 +3,6 @@ environments:
     projectName: "My First Project"
     templateName: "template1"
     name: "aasfassdssdss"
+    isRemoteBackend: true
     variableFiles:
       - path: "tomer.tfvars"
