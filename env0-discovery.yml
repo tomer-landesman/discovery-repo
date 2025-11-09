@@ -2,7 +2,7 @@ environments:
   oldOrg2:
     projectName: "My First Project"
     templateName: "template1"
-    name: "as"
+    name: "ass"
     isRemoteBackend: true
     deployOnPush: true
     variableFiles:
