@@ -5,3 +5,9 @@ environments:
     name: "aasfassdssdss"
     variableFiles:
       - path: "tomer.tfvars"
+  prEnv:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "pr-env"
+    variableFiles:
+      - path: "tomer.tfvars"
