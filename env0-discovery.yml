@@ -17,3 +17,9 @@ environments:
     name: "pr-env-3"
     variableFiles:
       - path: "tomer.tfvars"
+  prEnv3:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "pr-env-4"
+    variableFiles:
+      - path: "tomer.tfvars"
