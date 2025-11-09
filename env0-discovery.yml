@@ -1,25 +1,7 @@
 environments:
-  oldOrg2:
+  kaka:
     projectName: "My First Project"
     templateName: "template1"
-    name: "aasfassdssdss"
-    variableFiles:
-      - path: "tomer.tfvars"
-  prEnv:
-    projectName: "My First Project"
-    templateName: "template1"
-    name: "pr-env-2"
-    variableFiles:
-      - path: "tomer.tfvars"
-  prEnv2:
-    projectName: "My First Project"
-    templateName: "template1"
-    name: "pr-env-3"
-    variableFiles:
-      - path: "tomer.tfvars"
-  prEnv3:
-    projectName: "My First Project"
-    templateName: "template1"
-    name: "pr-env-4"
+    name: "aasfassddssdss"
     variableFiles:
       - path: "tomer.tfvars"
