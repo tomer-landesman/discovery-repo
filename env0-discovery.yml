@@ -2,7 +2,7 @@ environments:
   sabakoko:
     projectName: "My First Project"
     templateName: "template1"
-    name: "asss"
+    name: "assss"
     isRemoteBackend: true
     deployOnPush: true
     variableFiles:
