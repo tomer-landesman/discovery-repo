@@ -13,5 +13,3 @@ environments:
     name: "torid2"
     isRemoteBackend: true
     deployOnPush: true
-    variableFiles:
-      - path: "tomer.tfvars"
