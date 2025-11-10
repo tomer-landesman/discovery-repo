@@ -1,4 +1,4 @@
 aws_region        = "us-east-1"
 project_name      = "discovery"
-environment       = "dev2323334"
+environment       = "dev23323334"
 
