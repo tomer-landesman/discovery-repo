@@ -2,12 +2,14 @@ environments:
   sabakoko:
     projectName: "My First Project"
     templateName: "template1"
-    name: "ass"
+    name: "rb"
+    isRemoteBackend: true
     variableFiles:
       - path: "tomer.tfvars"
   kaka:
     projectName: "My First Project"
     templateName: "template1"
-    name: "aass"
+    name: "cd"
     variableFiles:
       - path: "tomer.tfvars"
+    continuousDeployment: true
