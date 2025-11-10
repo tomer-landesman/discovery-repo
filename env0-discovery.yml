@@ -4,6 +4,8 @@ environments:
     templateName: "template1"
     name: "rb"
     isRemoteBackend: true
+    continuousDeployment: false
+
     variableFiles:
       - path: "tomer.tfvars"
   kaka:
@@ -12,4 +14,4 @@ environments:
     name: "cd"
     variableFiles:
       - path: "tomer.tfvars"
-    continuousDeployment: true
+    continuousDeployment: false
