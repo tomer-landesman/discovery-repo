@@ -2,7 +2,7 @@ environments:
   sabakoko:
     projectName: "My First Project"
     templateName: "template1"
-    name: "2"
+    name: "ass"
     isRemoteBackend: true
     deployOnPush: true
     variableFiles:
@@ -10,6 +10,6 @@ environments:
   toridtasaba:
     projectName: "My First Project"
     templateName: "template1"
-    name: "torid2"
+    name: "torid"
     isRemoteBackend: true
     deployOnPush: true
