@@ -1,17 +1,136 @@
 environments:
-  sabakoko:
-    projectName: "My First Project"
-    templateName: "template1"
-    name: "rb2"
-    isRemoteBackend: true
-    continuousDeployment: false
+  # Full example environment with all available properties
+  complete-environment:
+    # Required: Environment name
+    name: "Complete Test Environment"
 
+    # Project identification (use either projectId OR projectName, not both)
+    projectId: "project-uuid-123"
+    # projectName: "My Project"
+
+    # Template identification (use either templateId OR templateName, not both)
+    templateId: "template-uuid-456"
+    # templateName: "My Template"
+
+    # VCS revision to deploy
+    # revision: "main"
+
+    # Workspace name for Terraform/OpenTofu
+    workspaceName: "production"
+
+    # TTL (Time To Live) settings
+    ttl:
+      type: "HOURS" # Options: INFINITE, HOURS, DATE
+      value: "24" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
+
+    # File paths for IaC
+    filePaths:
+      - "terraform/main.tf"
+      - "terraform/variables.tf"
+
+    # Variable sets to apply
+    variablesSets:
+      - "common-variables"
+      - "production-variables"
+
+    # Variable files
     variableFiles:
-      - path: "tomer.tfvars"
-  kaka:
-    projectName: "My First Project"
-    templateName: "template1"
-    name: "cd2"
-    variableFiles:
-      - path: "tomer.tfvars"
+      - path: "vars/production.tfvars"
+      - path: "vars/common.tfvars"
+
+    # Environment settings
+    requiresApproval: true
+    isRemoteBackend: false
+    autoDeployOnPathChangesOnly: true
+    autoDeployByCustomGlob: "terraform/**/*.tf"
+    continuousDeployment: true
+    vcsPrCommentsEnabled: true
+    vcsCommandsAlias: "env0"
+    pullRequestPlanDeployments: true
+
+    # Drift detection cron schedule (cron expression)
+    driftDetectionCron: "0 */6 * * *" # Every 6 hours
+
+  # Minimal environment with only required fields
+  minimal-environment:
+    name: "Minimal Test Environment"
+    projectName: "My Project"
+    templateName: "My Template"
+
+  # Environment with INFINITE TTL
+  infinite-ttl-environment:
+    name: "Infinite TTL Environment"
+    projectId: "project-uuid-789"
+    templateId: "template-uuid-012"
+    ttl:
+      type: "INFINITE"
+
+  # Environment with DATE-based TTL
+  date-ttl-environment:
+    name: "Date TTL Environment"
+    projectName: "Development Project"
+    templateName: "Dev Template"
+    ttl:
+      type: "DATE"
+      value: "2025-12-31T23:59:59.000Z"
+
+  # Environment with continuous deployment disabled
+  manual-deployment-environment:
+    name: "Manual Deployment Environment"
+    projectId: "project-uuid-345"
+    templateId: "template-uuid-678"
     continuousDeployment: false
+    pullRequestPlanDeployments: false
+    requiresApproval: true
+
+  # Environment with custom workspace and file paths
+  custom-workspace-environment:
+    name: "Custom Workspace Environment"
+    projectName: "Infrastructure Project"
+    templateName: "AWS Infrastructure"
+    workspaceName: "staging-us-east-1"
+    filePaths:
+      - "infrastructure/aws/main.tf"
+      - "infrastructure/aws/outputs.tf"
+    variableFiles:
+      - path: "config/staging.tfvars"
+
+  # Environment with drift detection
+  drift-detection-environment:
+    name: "Drift Detection Environment"
+    projectId: "project-uuid-999"
+    templateId: "template-uuid-888"
+    driftDetectionCron: "0 0 * * *" # Daily at midnight
+    vcsPrCommentsEnabled: true
+    vcsCommandsAlias: "infra"
+
+  # Environment with remote backend
+  remote-backend-environment:
+    name: "Remote Backend Environment"
+    projectName: "Backend Project"
+    templateName: "S3 Backend Template"
+    isRemoteBackend: true
+    workspaceName: "remote-state"
+
+  # Environment with auto-deploy on specific paths
+  path-specific-environment:
+    name: "Path Specific Auto Deploy"
+    projectId: "project-uuid-111"
+    templateId: "template-uuid-222"
+    autoDeployOnPathChangesOnly: true
+    autoDeployByCustomGlob: "services/api/**/*"
+    continuousDeployment: true
+
+  # Environment with multiple variable sets
+  multi-vars-environment:
+    name: "Multiple Variables Environment"
+    projectName: "Multi Vars Project"
+    templateName: "Multi Vars Template"
+    variablesSets:
+      - "global-vars"
+      - "region-specific-vars"
+      - "environment-vars"
+    variableFiles:
+      - path: "vars/global.tfvars"
+      - path: "vars/region.tfvars"
+      - path: "vars/env.tfvars"
