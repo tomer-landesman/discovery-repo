@@ -9,3 +9,9 @@ environments:
     projectName: "My First Project"
     templateName: "template1"
     name: "torid"
+  new:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "new"
+    variableFiles:
+      - path: "tomer.tfvars"
