@@ -2,7 +2,15 @@ environments:
   sabakoko:
     projectName: "My First Project"
     templateName: "template1"
-    name: "assss"
+    name: "sabaj"
+    isRemoteBackend: true
+    deployOnPush: true
+    variableFiles:
+      - path: "tomer.tfvars"
+  toridtasaba:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "torid"
     isRemoteBackend: true
     deployOnPush: true
     variableFiles:
