@@ -2,7 +2,7 @@ environments:
   sabakoko:
     projectName: "My First Project"
     templateName: "template1"
-    name: "rb"
+    name: "rb1"
     isRemoteBackend: true
     continuousDeployment: false
 
@@ -11,7 +11,7 @@ environments:
   kaka:
     projectName: "My First Project"
     templateName: "template1"
-    name: "cd"
+    name: "cd1"
     variableFiles:
       - path: "tomer.tfvars"
     continuousDeployment: false
