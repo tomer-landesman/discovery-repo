@@ -5,3 +5,9 @@ environments:
     name: "ass"
     variableFiles:
       - path: "tomer.tfvars"
+  kaka:
+    projectName: "My First Project"
+    templateName: "template1"
+    name: "aass"
+    variableFiles:
+      - path: "tomer.tfvars"
