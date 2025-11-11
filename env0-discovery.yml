@@ -40,12 +40,12 @@ environments:
 
     # Environment settings
     requiresApproval: true
-    isRemoteBackend: false
+    isRemoteBackend: true
     autoDeployOnPathChangesOnly: true
     autoDeployByCustomGlob: "terraform/**/*.tf"
     continuousDeployment: true
     vcsPrCommentsEnabled: true
-    vcsCommandsAlias: "env0"
+    vcsCommandsAlias: "env01"
     pullRequestPlanDeployments: true
 
     # Drift detection cron schedule (cron expression)
