@@ -54,8 +54,8 @@ environments:
   # Minimal environment with only required fields
   minimal-environment:
     name: "Minimal Test Environment"
-    projectName: "My Project"
-    templateName: "My Template"
+    projectName: "My First Project"
+    templateName: "template1"
 
   # Environment with INFINITE TTL
   infinite-ttl-environment:
