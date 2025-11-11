@@ -5,11 +5,11 @@ environments:
     name: "Complete Test Environment"
 
     # Project identification (use either projectId OR projectName, not both)
-    projectId: "project-uuid-123"
+    projectName: "My First Project"
     # projectName: "My Project"
 
     # Template identification (use either templateId OR templateName, not both)
-    templateId: "template-uuid-456"
+    templateName: "template1"
     # templateName: "My Template"
 
     # VCS revision to deploy
