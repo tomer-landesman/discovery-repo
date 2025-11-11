@@ -18,7 +18,7 @@ environments:
       - path: "vars/production.tfvars"
       - path: "vars/common.tfvars"
     requiresApproval: true
-    isRemoteBackend: true
+    isRemoteBackend: false
     autoDeployOnPathChangesOnly: true
     autoDeployByCustomGlob: "terraform/**/*.tf"
     continuousDeployment: true
