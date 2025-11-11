@@ -70,10 +70,11 @@ environments:
       type: "INFINITE"
 
   # Environment with DATE-based TTL
-  date-ttl-environment:
-    name: "Date TTL Environment"
-    projectName: "Development Project"
-    templateName: "Dev Template"
+  date-ttl-environment2:
+    name: "Date TTL Environment2"
+    projectName: "My First Project"
+    templateName: "template2"
+    requiresApproval: false
     ttl:
       type: "DATE"
       value: "2025-12-31T23:59:59.000Z"
