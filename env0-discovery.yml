@@ -9,7 +9,7 @@ environments:
     # projectName: "My Project"
 
     # Template identification (use either templateId OR templateName, not both)
-    templateName: "template2"
+    templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
     # templateName: "My Template"
 
     # VCS revision to deploy
