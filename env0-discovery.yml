@@ -21,7 +21,7 @@ environments:
     # TTL (Time To Live) settings
     ttl:
       type: "HOURS" # Options: INFINITE, HOURS, DATE
-      value: "24" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
+      value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
 
     # File paths for IaC
     filePaths:
