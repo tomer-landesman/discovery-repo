@@ -1,44 +1,22 @@
 environments:
   # Full example environment with all available properties
   complete-environment:
-    # Required: Environment name
     name: "Complete Test Environment"
-
-    # Project identification (use either projectId OR projectName, not both)
     projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-    # projectName: "My Project"
-
-    # Template identification (use either templateId OR templateName, not both)
     templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
-    # templateName: "My Template"
-
-    # VCS revision to deploy
-    # revision: "main"
-
-    # Workspace name for Terraform/OpenTofu
     workspaceName: "production23123"
-
-    # TTL (Time To Live) settings
     ttl:
       type: "HOURS" # Options: INFINITE, HOURS, DATE
       value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
-
-    # File paths for IaC
     filePaths:
       - "terraform/main.tf"
       - "terraform/variables.tf"
-
-    # Variable sets to apply
     variablesSets:
       - "common-variables"
       - "production-variables"
-
-    # Variable files
     variableFiles:
       - path: "vars/production.tfvars"
       - path: "vars/common.tfvars"
-
-    # Environment settings
     requiresApproval: true
     isRemoteBackend: true
     autoDeployOnPathChangesOnly: true
@@ -48,7 +26,6 @@ environments:
     vcsCommandsAlias: "env01"
     pullRequestPlanDeployments: true
 
-    # Drift detection cron schedule (cron expression)
     driftDetectionCron: "0 */6 * * *" # Every 6 hours
 
   # Minimal environment with only required fields
