@@ -16,7 +16,7 @@ environments:
     # revision: "main"
 
     # Workspace name for Terraform/OpenTofu
-    workspaceName: "production2313"
+    workspaceName: "production23123"
 
     # TTL (Time To Live) settings
     ttl:
