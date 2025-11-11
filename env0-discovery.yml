@@ -90,7 +90,7 @@ environments:
 
   # Environment with continuous deployment disabled
   manual-deployment-environment2:
-    name: "Manual Deployment Environment2"
+    name: "Manual Deployment Environment22"
     projectName: "My First Project"
     templateName: "template2"
     continuousDeployment: false
