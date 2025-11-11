@@ -52,6 +52,13 @@ environments:
     templateName: "template2"
     driftDetectionCron: "0 */2 * * *" # Every 6 hours
 
+  creating-d2d:
+    name: "creating-dd2"
+    vcsCommandsAlias: "env011"
+    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
+    templateName: "template2"
+    driftDetectionCron: "0 */2 * * *" # Every 6 hours
+
   # Environment with INFINITE TTL
   infinite-ttl-environment:
     name: "Infinite TTL Environment"
