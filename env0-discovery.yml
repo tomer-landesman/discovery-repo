@@ -9,7 +9,7 @@ environments:
     # projectName: "My Project"
 
     # Template identification (use either templateId OR templateName, not both)
-    templateName: "template1"
+    templateName: "template2"
     # templateName: "My Template"
 
     # VCS revision to deploy
@@ -55,13 +55,13 @@ environments:
   minimal-environment:
     name: "Minimal Test Environment"
     projectName: "My First Project"
-    templateName: "template1"
+    templateName: "template2"
 
   # Environment with INFINITE TTL
   infinite-ttl-environment:
     name: "Infinite TTL Environment"
-    projectId: "project-uuid-789"
-    templateId: "template-uuid-012"
+    projectName: "My First Project"
+    templateName: "template2"
     ttl:
       type: "INFINITE"
 
