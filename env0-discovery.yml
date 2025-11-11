@@ -71,7 +71,7 @@ environments:
 
   # Environment with DATE-based TTL
   date-ttl-environment2:
-    name: "Date TTL Environment2"
+    name: "Date TTL Environment22"
     projectName: "My First Project"
     templateName: "template2"
     requiresApproval: false
