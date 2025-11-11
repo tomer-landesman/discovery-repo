@@ -53,7 +53,7 @@ environments:
 
   # Minimal environment with only required fields
   minimal-environment2:
-    name: "Minimal Test Environment"
+    name: "Minimal Test Environment2"
     projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
     templateName: "template2"
     driftDetectionCron: "0 */6 * * *" # Every 6 hours
