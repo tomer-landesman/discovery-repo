@@ -67,7 +67,8 @@ environments:
     projectName: "My First Project"
     templateName: "template2"
     ttl:
-      type: "INFINITE"
+      type: "HOURS" # Options: INFINITE, HOURS, DATE
+      value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
 
   # Environment with DATE-based TTL
   date-ttl-environment2:
