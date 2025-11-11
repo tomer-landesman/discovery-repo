@@ -80,13 +80,13 @@ environments:
       value: "2025-12-31T23:59:59.000Z"
 
   # Environment with continuous deployment disabled
-  manual-deployment-environment:
-    name: "Manual Deployment Environment"
-    projectId: "project-uuid-345"
-    templateId: "template-uuid-678"
+  manual-deployment-environment2:
+    name: "Manual Deployment Environment2"
+    projectName: "My First Project"
+    templateName: "template2"
     continuousDeployment: false
     pullRequestPlanDeployments: false
-    requiresApproval: true
+    userRequiresApproval: false
 
   # Environment with custom workspace and file paths
   custom-workspace-environment:
