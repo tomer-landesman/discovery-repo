@@ -8,7 +8,7 @@ environments:
     workspaceName: "production23123-updated2" # bug
     variableFiles:
       - path: "vars/production.tfvars"
-    requiresApproval: true # check again
+    requiresApproval: true # check agains
     isRemoteBackend: true
     autoDeployOnPathChangesOnly: false
     autoDeployByCustomGlob: "terraform-updated/**/*.tf"
