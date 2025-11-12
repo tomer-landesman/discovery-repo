@@ -5,9 +5,6 @@ environments:
     projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
     templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
     workspaceName: "production23123"
-    ttl:
-      type: "HOURS" # Options: INFINITE, HOURS, DATE
-      value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
     variablesSets:
       - "common-variables"
       - "production-variables"
@@ -35,12 +32,11 @@ environments:
       type: "HOURS" # Options: INFINITE, HOURS, DATE
       value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
 
-  minimal-environment3:
+  revision-test:
     name: "DD"
-    vcsCommandsAlias: "env01"
     projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
     templateName: "template2"
-    driftDetectionCron: "0 */7 * * *" # Every 6 hours
+    revision: "kaka"
 
   creating-dd:
     name: "creating-dd"
