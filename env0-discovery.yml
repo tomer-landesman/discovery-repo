@@ -10,7 +10,6 @@ environments:
       - "production-variables"
     variableFiles:
       - path: "vars/production.tfvars"
-      - path: "vars/common.tfvars"
     requiresApproval: false
     isRemoteBackend: true
     autoDeployOnPathChangesOnly: true
@@ -18,7 +17,6 @@ environments:
     continuousDeployment: true
     vcsPrCommentsEnabled: true
     vcsCommandsAlias: "tomer"
-    pullRequestPlanDeployments:
     invalid: true
 
     driftDetectionCron: "0 */7 * * *" # Every 6 hours
