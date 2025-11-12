@@ -9,8 +9,8 @@ environments:
     variableFiles:
       - path: "vars/production.tfvars"
     requiresApproval: true
-    isRemoteBackend: false
-    autoDeployOnPathChangesOnly: true
+    isRemoteBackend: false # check again
+    autoDeployOnPathChangesOnly: false
     autoDeployByCustomGlob: "terraform/**/*.tf"
     continuousDeployment: true
     vcsPrCommentsEnabled: true
