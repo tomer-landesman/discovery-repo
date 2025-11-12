@@ -20,7 +20,7 @@ environments:
     vcsCommandsAlias: "tomer"
     pullRequestPlanDeployments: true
 
-    driftDetectionCron: "0 */6 * * *" # Every 6 hours
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours
 
   # Minimal environment with only required fields
   minimal-environment2:
