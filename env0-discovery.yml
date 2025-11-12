@@ -1,156 +1,51 @@
 environments:
-  # # Full example environment with all available properties
-  # complete-environment:
-  #   name: "Complete Test Environment"
-  #   projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-  #   templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
-  #   workspaceName: "production23123"
-  #   ttl:
-  #     type: "HOURS" # Options: INFINITE, HOURS, DATE
-  #     value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
-  #   filePaths:
-  #     - "terraform/main.tf"
-  #     - "terraform/variables.tf"
-  #   variablesSets:
-  #     - "common-variables"
-  #     - "production-variables"
-  #   variableFiles:
-  #     - path: "vars/production.tfvars"
-  #     - path: "vars/common.tfvars"
-  #   requiresApproval: true
-  #   isRemoteBackend: false
-  #   autoDeployOnPathChangesOnly: true
-  #   autoDeployByCustomGlob: "terraform/**/*.tf"
-  #   continuousDeployment: true
-  #   vcsPrCommentsEnabled: true
-  #   vcsCommandsAlias: "env01"
-  #   pullRequestPlanDeployments: true
+  # Full example environment with all available properties
+  complete-environment:
+    name: "Complete Test Environment"
+    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
+    templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
+    workspaceName: "production23123"
+    ttl:
+      type: "HOURS" # Options: INFINITE, HOURS, DATE
+      value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
+    variablesSets:
+      - "common-variables"
+      - "production-variables"
+    variableFiles:
+      - path: "vars/production.tfvars"
+      - path: "vars/common.tfvars"
+    requiresApproval: false
+    isRemoteBackend: true
+    autoDeployOnPathChangesOnly: true
+    autoDeployByCustomGlob: "terraform/**/*.tf"
+    continuousDeployment: true
+    vcsPrCommentsEnabled: true
+    vcsCommandsAlias: "tomer"
+    pullRequestPlanDeployments: true
 
-  #   driftDetectionCron: "0 */6 * * *" # Every 6 hours
+    driftDetectionCron: "0 */6 * * *" # Every 6 hours
 
-  # # Minimal environment with only required fields
-  # minimal-environment2:
-  #   name: "Minimal Test Environment2"
-  #   projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-  #   templateName: "template2"
-  #   driftDetectionCron: "0 */6 * * *" # Every 6 hours
-  #   ttl:
-  #     type: "HOURS" # Options: INFINITE, HOURS, DATE
-  #     value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
+  # Minimal environment with only required fields
+  minimal-environment2:
+    name: "Minimal Test Environment2"
+    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
+    templateName: "template2"
+    driftDetectionCron: "0 */6 * * *" # Every 6 hours
+    ttl:
+      type: "HOURS" # Options: INFINITE, HOURS, DATE
+      value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
 
-  # minimal-environment3:
-  #   name: "DD"
-  #   vcsCommandsAlias: "env01"
-  #   projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-  #   templateName: "template2"
-  #   driftDetectionCron: "0 */7 * * *" # Every 6 hours
+  minimal-environment3:
+    name: "DD"
+    vcsCommandsAlias: "env01"
+    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
+    templateName: "template2"
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours
 
-  # creating-dd:
-  #   name: "creating-dd"
-  #   vcsCommandsAlias: "env011"
-  #   projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-  #   templateName: "template2"
-  #   driftDetectionCron: "0 */2 * * *" # Every 6 hours
+  creating-dd:
+    name: "creating-dd"
+    vcsCommandsAlias: "env011"
+    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
+    templateName: "template2"
+    driftDetectionCron: "0 */2 * * *" # Every 6 hours
 
-  # creating-d2d2:
-  #   name: "creating-dd22"
-  #   vcsCommandsAlias: "env011"
-  #   projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-  #   templateName: "template2"
-  #   driftDetectionCron: "0 */2 * * *" # Every 6 hours
-
-  # # Environment with INFINITE TTL
-  # infinite-ttl-environment:
-  #   name: "Infinite TTL Environment"
-  #   projectName: "My First Project"
-  #   templateName: "template2"
-  #   ttl:
-  #     type: "HOURS" # Options: INFINITE, HOURS, DATE
-  #     value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
-
-  # 1-hour-ttl:
-  #   name: "1hourttl"
-  #   projectName: "My First Project"
-  #   templateName: "template2"
-  #   ttl:
-  #     type: "HOURS" # Options: INFINITE, HOURS, DATE
-  #     value: "1" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
-
-  # 2-hour-ttl:
-  #   name: "2hourttl"
-  #   projectName: "My First Project"
-  #   templateName: "template2"
-  #   ttl:
-  #     type: "HOURS" # Options: INFINITE, HOURS, DATE
-  #     value: "2" # Required for HOURS (stringified number) or DATE (ISO format: 2023-06-04T20:05:00.000Z)
-
-  # # Environment with DATE-based TTL
-  # date-ttl-environment2:
-  #   name: "Date TTL Environment22"
-  #   projectName: "My First Project"
-  #   templateName: "template2"
-  #   requiresApproval: false
-  #   ttl:
-  #     type: "DATE"
-  #     value: "2025-12-31T23:59:59.000Z"
-
-  # # Environment with continuous deployment disabled
-  # manual-deployment-environment2:
-  #   name: "Manual Deployment Environment22"
-  #   projectName: "My First Project"
-  #   templateName: "template2"
-  #   continuousDeployment: false
-  #   pullRequestPlanDeployments: false
-  #   userRequiresApproval: false
-
-  # # Environment with custom workspace and file paths
-  # custom-workspace-environment:
-  #   name: "Custom Workspace Environment"
-  #   projectName: "Infrastructure Project"
-  #   templateName: "AWS Infrastructure"
-  #   workspaceName: "staging-us-east-1"
-  #   filePaths:
-  #     - "infrastructure/aws/main.tf"
-  #     - "infrastructure/aws/outputs.tf"
-  #   variableFiles:
-  #     - path: "config/staging.tfvars"
-
-  # # Environment with drift detection
-  # drift-detection-environment:
-  #   name: "Drift Detection Environment"
-  #   projectId: "project-uuid-999"
-  #   templateId: "template-uuid-888"
-  #   driftDetectionCron: "0 0 * * *" # Daily at midnight
-  #   vcsPrCommentsEnabled: true
-  #   vcsCommandsAlias: "infra"
-
-  # # Environment with remote backend
-  # remote-backend-environment:
-  #   name: "Remote Backend Environment"
-  #   projectName: "Backend Project"
-  #   templateName: "S3 Backend Template"
-  #   isRemoteBackend: true
-  #   workspaceName: "remote-state"
-
-  # # Environment with auto-deploy on specific paths
-  # path-specific-environment:
-  #   name: "Path Specific Auto Deploy"
-  #   projectId: "project-uuid-111"
-  #   templateId: "template-uuid-222"
-  #   autoDeployOnPathChangesOnly: true
-  #   autoDeployByCustomGlob: "services/api/**/*"
-  #   continuousDeployment: true
-
-  # # Environment with multiple variable sets
-  # multi-vars-environment:
-  #   name: "Multiple Variables Environment"
-  #   projectName: "Multi Vars Project"
-  #   templateName: "Multi Vars Template"
-  #   variablesSets:
-  #     - "global-vars"
-  #     - "region-specific-vars"
-  #     - "environment-vars"
-  #   variableFiles:
-  #     - path: "vars/global.tfvars"
-  #     - path: "vars/region.tfvars"
-  #     - path: "vars/env.tfvars"
