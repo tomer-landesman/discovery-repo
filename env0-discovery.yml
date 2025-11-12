@@ -2,6 +2,7 @@ environments:
   # Full example environment with all available properties
   complete-environment:
     name: "Updated name"
+    revision: "main"
     projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
     templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
     workspaceName: "production23123-updated2" # bug
