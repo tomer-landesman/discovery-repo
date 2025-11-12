@@ -18,7 +18,8 @@ environments:
     continuousDeployment: true
     vcsPrCommentsEnabled: true
     vcsCommandsAlias: "tomer"
-    pullRequestPlanDeployments: true
+    pullRequestPlanDeployments:
+    invalid: true
 
     driftDetectionCron: "0 */7 * * *" # Every 6 hours
 
