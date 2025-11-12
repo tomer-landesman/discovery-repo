@@ -1,6 +1,6 @@
 # Production Environment Variables
 
-environment = "production"
+environment = "production-updated"
 region      = "us-east-1"
 
 # Instance Configuration
