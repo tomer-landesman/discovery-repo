@@ -12,8 +12,8 @@ environments:
     isRemoteBackend: true
     autoDeployOnPathChangesOnly: false
     autoDeployByCustomGlob: "terraform-updated/**/*.tf"
-    continuousDeployment: true
-    vcsPrCommentsEnabled: true
+    continuousDeployment: false
+    vcsPrCommentsEnabled: false
     vcsCommandsAlias: "tomer"
     invalid: true
 
