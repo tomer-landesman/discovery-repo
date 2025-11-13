@@ -18,3 +18,10 @@ environments:
     invalid: true
 
     # driftDetectionCron: "0 */7 * * *" # Every 6 hours
+  min:
+    name: "min" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours
+
