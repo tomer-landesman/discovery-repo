@@ -1,7 +1,43 @@
 environments:
-  kaka:
+  # Full example environment with all available properties2s
+  complete-environment1:
+    name: "Updated name" # chag2ee
+    revision: "alla-one"
     projectName: "My First Project"
-    templateName: "template1"
-    name: "aasfassssddssdss"
+    templateName: "template2"
+    workspaceName: "production23123as" # bugd
     variableFiles:
-      - path: "tomer.tfvars"
+      - path: "vars/production.tfvars"
+    requiresApproval: false # check agains no changed
+    isRemoteBackend: true
+    autoDeployOnPathChangesOnly: false
+    autoDeployByCustomGlob: "terraform-updated/**/*.tf"
+    pullRequestPlanDeployments: false
+    continuousDeployment: false
+    vcsPrCommentsEnabled: true
+    vcsCommandsAlias: "tomer"
+    invalid: true
+
+    # driftDetectionCron: "0 */7 * * *" # Every 6 hours2
+  min1:
+    name: "min" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3
+    pullRequestPlanDeployments: false
+
+  min2:
+    name: "min2" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3ssdfsfss
+    # pullRequestPlanDeployments: false
+    requiresApproval: true
+
+  dd-policy:
+    name: "dd-policy" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
