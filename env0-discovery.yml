@@ -5,7 +5,7 @@ environments:
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
-    workspaceName: "production23123" # bugd
+    workspaceName: "production23123as" # bugd
     variableFiles:
       - path: "vars/production.tfvars"
     requiresApproval: false # check agains no change
@@ -18,7 +18,7 @@ environments:
     vcsCommandsAlias: "tomer"
     invalid: true
 
-    # driftDetectionCron: "0 */7 * * *" # Every 6 hours
+    # driftDetectionCron: "0 */7 * * *" # Every 6 hours2
   min1:
     name: "min" # chag2ee
     revision: "alla-one"
