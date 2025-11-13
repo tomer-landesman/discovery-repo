@@ -1,10 +1,10 @@
 environments:
   # Full example environment with all available properties2
   complete-environment:
-    name: "Updated name" # chagee
+    name: "Updated name" # chag2ee
     revision: "alla-one"
-    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-    templateId: "dc5dc4d3-783d-4324-9f71-5d73db491ce9"
+    projectName: "My First Project"
+    templateName: "template2"
     workspaceName: "production23123" # bugd
     variableFiles:
       - path: "vars/production.tfvars"
@@ -18,24 +18,4 @@ environments:
     invalid: true
 
     driftDetectionCron: "0 */7 * * *" # Every 6 hours
-
-  # Minimal environment with only r3equired fields
-  minimal-environment3:
-    name: "req app"
-    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-    templateName: "template2"
-    requiresApproval: true
-
-  revision-test:
-    name: "DD"
-    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-    templateName: "template2"
-    revision: "kaka"
-
-  creating-dd:
-    name: "creating-dd"
-    vcsCommandsAlias: "env011"
-    projectId: "7227d03a-82c6-4afc-ab6f-97b8ed40a99e"
-    templateName: "template2"
-    driftDetectionCron: "0 */2 * * *" # Every 6 hours
 
