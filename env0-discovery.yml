@@ -17,5 +17,4 @@ environments:
     vcsCommandsAlias: "tomer"
     invalid: true
 
-    driftDetectionCron: "0 */7 * * *" # Every 6 hours
-
+    # driftDetectionCron: "0 */7 * * *" # Every 6 hours
