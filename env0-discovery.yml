@@ -1,5 +1,5 @@
 environments:
-  # Full example environment with all available properties2
+  # Full example environment with all available properties2s
   complete-environment1:
     name: "Updated name" # chag2ee
     revision: "alla-one"
