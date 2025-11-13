@@ -1,5 +1,5 @@
 environments:
-  # Full example environment with all available properties
+  # Full example environment with all available properties2
   complete-environment:
     name: "Updated name" # chagee
     revision: "alla-one"
