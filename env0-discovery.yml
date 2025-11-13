@@ -32,4 +32,4 @@ environments:
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
-    driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3
+    driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3ssdfsf
