@@ -33,7 +33,7 @@ environments:
     projectName: "My First Project"
     templateName: "template2"
     driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3ssdfsfss
-    pullRequestPlanDeployments: false
+    # pullRequestPlanDeployments: false
 
   dd-policy:
     name: "dd-policy" # chag2ee
