@@ -13,7 +13,7 @@ environments:
     autoDeployOnPathChangesOnly: false
     autoDeployByCustomGlob: "terraform-updated/**/*.tf"
     continuousDeployment: false
-    vcsPrCommentsEnabled: false
+    vcsPrCommentsEnabled: true
     vcsCommandsAlias: "tomer"
     invalid: true
 
