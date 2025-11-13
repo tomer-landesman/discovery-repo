@@ -33,3 +33,8 @@ environments:
     projectName: "My First Project"
     templateName: "template2"
     driftDetectionCron: "0 */7 * * *" # Every 6 hours3s3ssdfsf
+  dd-policy:
+    name: "dd-policy" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
