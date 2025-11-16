@@ -56,4 +56,11 @@ environments:
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
+
+  drd3:
+    name: "dd2" # chag2ee
+    revision: "alla-one"
+    projectName: "policies"
+    templateName: "template2"
+    workspaceName: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     # driftDetectionCron: "0 */7 * * *"
