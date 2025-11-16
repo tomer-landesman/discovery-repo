@@ -45,9 +45,9 @@ environments:
     requiresApproval: true
     pullRequestPlanDeployments: true
 
-  policies:
-    name: "policies" # chag2ee
+  policies-2:
+    name: "policies2" # chag2ee
     revision: "alla-one"
-    projectName: "My First Project"
+    projectName: "policies"
     templateName: "template2"
-    # driftDetectionCron: "0 */7 * * *ss
+    # driftDetectionCron: "0 */7 * * *sssds
