@@ -66,3 +66,9 @@ environments:
     driftDetectionCron: "0 */7 * * *"
     isRemoteBackend: false
     requiresApproval: false
+
+  drd5:
+    name: "1" # chag2ee
+    revision: "alla-one"
+    projectName: "policies"
+    templateName: "template2"
