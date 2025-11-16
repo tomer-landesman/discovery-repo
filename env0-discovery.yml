@@ -54,11 +54,11 @@ environments:
   once:
     name: "pr19994"
     revision: "alla-one"
-    projectName: "My First Project"
+    projectId: "317ad755-4fe1-4b42-a393-12a1732d857d"
     templateName: "template2"
 
   two:
     name: "pr19994"
     revision: "alla-one"
-    projectName: "My First Project" #dup
+    projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #dup
     templateName: "template2"
