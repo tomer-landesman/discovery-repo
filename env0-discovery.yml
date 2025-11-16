@@ -57,8 +57,8 @@ environments:
     projectName: "policies"
     templateName: "template2"
 
-  drd3:
-    name: "dd2" # chag2ee
+  drd4:
+    name: "dd23" # chag2ee
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
