@@ -57,3 +57,4 @@ environments:
     projectName: "policies"
     templateName: "template2"
     driftDetectionCron: "0 */7 * * *
+    
