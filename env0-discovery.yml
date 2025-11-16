@@ -58,7 +58,7 @@ environments:
     templateName: "template2"
 
   two2:
-    name: "pr19994"
+    name: "pr19994-newname"
     revision: "alla-one"
     projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #dudpddsdedd
     templateName: "template2"
