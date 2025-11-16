@@ -60,5 +60,5 @@ environments:
   two:
     name: "pr19994"
     revision: "alla-one"
-    projectName: "My First Project"
+    projectName: "My First Project" #dup
     templateName: "template2"
