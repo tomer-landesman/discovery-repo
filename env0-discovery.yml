@@ -50,4 +50,4 @@ environments:
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
-    # driftDetectionCron: "0 */7 * * *s
+    # driftDetectionCron: "0 */7 * * *ss
