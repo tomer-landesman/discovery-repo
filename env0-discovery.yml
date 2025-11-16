@@ -36,8 +36,8 @@ environments:
   #   # pullRequestPlanDeployments: false
   #   requiresApproval: true
 
-  dd-policy-2:
-    name: "dd-policy" # chag2ee
+  kaka:
+    name: "kaka" # chag2ee
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
