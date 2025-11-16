@@ -72,3 +72,4 @@ environments:
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
+    requiresApproval: false
