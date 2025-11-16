@@ -51,13 +51,13 @@ environments:
     projectName: "policies"
     templateName: "template2"
 
-  once:
+  once1:
     name: "pr19994"
     revision: "alla-one"
     projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #sd
     templateName: "template2"
 
-  two:
+  two2:
     name: "pr19994"
     revision: "alla-one"
     projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #dup
