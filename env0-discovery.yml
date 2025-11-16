@@ -37,9 +37,10 @@ environments:
   #   requiresApproval: true
 
   kaka:
-    name: "kaka" # chag2ee
+    name: "kaka2" # chag2ee
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
     # driftDetectionCron: "0 */7 * * *
     requiresApproval: true
+    pullRequestPlanDeployments: true
