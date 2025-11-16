@@ -50,4 +50,10 @@ environments:
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
+
+  drd:
+    name: "dd" # chag2ee
+    revision: "alla-one"
+    projectName: "policies"
+    templateName: "template2"
     # driftDetectionCron: "0 */7 * * *sssdss
