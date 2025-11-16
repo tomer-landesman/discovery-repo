@@ -60,5 +60,5 @@ environments:
   two2:
     name: "pr19994"
     revision: "alla-one"
-    projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #dup
+    projectId: "317ad755-4fe1-4b42-a393-12a1732d857d" #dudp
     templateName: "template2"
