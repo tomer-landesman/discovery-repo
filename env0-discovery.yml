@@ -56,4 +56,9 @@ environments:
     revision: "alla-one"
     projectName: "My First Project"
     templateName: "template2"
-    # driftDetectionCron: "0 */7 * * *"
+
+  two:
+    name: "pr19994"
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
