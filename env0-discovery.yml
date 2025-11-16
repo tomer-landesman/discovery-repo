@@ -56,4 +56,4 @@ environments:
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
-    # driftDetectionCron: "0 */7 * * *sssdssa
+    driftDetectionCron: "0 */7 * * *sssdssa
