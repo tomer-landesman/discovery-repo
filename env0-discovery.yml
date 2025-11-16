@@ -44,3 +44,10 @@ environments:
     # driftDetectionCron: "0 */7 * * *
     requiresApproval: true
     pullRequestPlanDeployments: true
+
+  policies:
+    name: "policies" # chag2ee
+    revision: "alla-one"
+    projectName: "My First Project"
+    templateName: "template2"
+    # driftDetectionCron: "0 */7 * * *
