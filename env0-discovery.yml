@@ -51,16 +51,9 @@ environments:
     projectName: "policies"
     templateName: "template2"
 
-  drd2:
-    name: "dd2" # chag2ee
+  once:
+    name: "pr19994"
     revision: "alla-one"
-    projectName: "policies"
+    projectName: "My First Project"
     templateName: "template2"
-
-  drd4:
-    name: "dd2123123" # chag2ee
-    revision: "alla-one"
-    projectName: "policies"
-    templateName: "template2"
-    workspaceName: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     # driftDetectionCron: "0 */7 * * *"
