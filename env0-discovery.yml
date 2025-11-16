@@ -68,7 +68,7 @@ environments:
     requiresApproval: false
 
   drd5:
-    name: "1" # chag2ee
+    name: "1" # chag2ees
     revision: "alla-one"
     projectName: "policies"
     templateName: "template2"
