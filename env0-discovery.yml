@@ -42,4 +42,4 @@ environments:
     projectName: "My First Project"
     templateName: "template2"
     # driftDetectionCron: "0 */7 * * *
-    requiresApproval: false
+    # requiresApproval: false
