@@ -1,3 +1,3 @@
 resource "null_resource" "nullish" {
- count = 7
+ count = 2
 }
